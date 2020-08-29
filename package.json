@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-fun",
+  "version": "1.0.0",
+  "author": "demikhovr",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.6.1",
+    "@types/socket.io": "^2.1.11",
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
